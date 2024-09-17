@@ -1,0 +1,99 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(./utlis/images/wallpaperflare.com_wallpaper\ \(1\).jpg);
+  background-size: cover !important;
+  background-position: center ;
+  background-attachment: fixed;
+  backdrop-filter: blur(3px) !important; /* Blur effect */
+  -webkit-backdrop-filter: blur(3px); /* Safari compatibility */
+}
+/* Glass effect styling */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1) !important; /* Semi-transparent white */
+  backdrop-filter: blur(10px) !important; /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+  border-bottom: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.add-product {
+  background: #0006 !important;
+  backdrop-filter: blur(10px) !important; /* Blur effect */
+  -webkit-backdrop-filter: blur(10px) !important; /* Safari compatibility */
+  height: 100vh;
+}
+
+
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse !important;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+
+  
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd !important ;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+
+
+  /* Styles for mobile screens (width 768px or smaller) */
+@media screen and (max-width: 768px) {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px; /* Reduce font size for mobile */
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* Make table scrollable horizontally on small screens */
+  .table-container {
+    overflow-x: auto;
+  }
+
+  form {
+    max-width: 100%; /* Make form take full width on mobile */
+    padding: 10px;
+  }
+
+  input {
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 14px; /* Reduce input font size */
+  }
+
+  h2 {
+    font-size: 20px; /* Smaller font for headings */
+}
+}
