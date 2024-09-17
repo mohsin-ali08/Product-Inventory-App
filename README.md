@@ -19,4 +19,4 @@
 - **JavaScript:** ES6
 - **Backend:** Firebase Authentication, Firestore Database
 
-#thanks
+# thanks
